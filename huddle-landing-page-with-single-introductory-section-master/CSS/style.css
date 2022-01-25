@@ -1,0 +1,106 @@
+section {
+    height: 100vh;
+    width: 100%;
+    background-image: url(/images/bg-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-color: hsl(257, 40%, 49%);
+}
+
+section header {
+    padding: 50px 0;
+    margin-bottom: 40px;
+}
+
+section main .left img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+section main .left {
+    height: 100%;
+    width: 645px;
+}
+
+section main .right {
+    color: #fff;
+    margin-left: 60px;
+    position: relative;
+}
+
+section main .right .details .information {
+    position: absolute;
+    top: 40px;
+}
+
+
+section main .right h2 {
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    
+}
+
+section main .right p {
+    font-family: 'Open sans';
+    font-weight: 400;
+    font-size: 16px;  
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 8px 30px;
+    border-radius: 25px;
+    border: none;  
+    background-color: #fff; 
+}
+
+button a {
+    text-decoration: none;
+    font-family: poppins;   
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);     
+}
+
+footer .social-links {
+    padding: 40px 0px;
+}
+
+footer .social-links {
+    display: flex;
+    justify-content: right;
+    color: #fff;
+}
+
+footer .social-links ul {
+    list-style-type: none;
+}
+
+footer .social-links ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+footer .social-links ul li a {
+    text-decoration: none;
+    height: 12px;
+    width: 12px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social-links ul li a:hover {
+    color: hsl(257, 40%, 49%);
+    background-color: #fff;
+    transition: all ease-in-out 250ms;
+}
